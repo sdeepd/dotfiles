@@ -62,8 +62,6 @@ export PATH=$PATH:/Applications/Araxis\ Merge.app/Contents/Utilities
 
 source $ZSH/oh-my-zsh.sh
 
-export HOMEBREW_GITHUB_API_TOKEN=d6e70be31448b53272fb8ae84091805a57461456
-
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
