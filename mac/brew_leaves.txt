@@ -2,6 +2,7 @@ antiword
 binwalk
 caskroom/cask/brew-cask
 byobu
+cheat
 colordiff
 desk
 diff-so-fancy
