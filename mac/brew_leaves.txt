@@ -3,6 +3,7 @@ binwalk
 caskroom/cask/brew-cask
 byobu
 cheat
+cloc
 colordiff
 desk
 diff-so-fancy
@@ -21,6 +22,7 @@ brona/iproute2mac/iproute2mac
 jq
 lftp
 libsmi
+libvo-aacenc
 lynx
 minicom
 ncdu
