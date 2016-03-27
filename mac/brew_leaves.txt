@@ -1,6 +1,5 @@
 antiword
 binwalk
-caskroom/cask/brew-cask
 byobu
 cheat
 cloc
@@ -14,12 +13,14 @@ fzf
 gcc
 git
 git-extras
+gnupg2
 grc
 hexcurse
 htop-osx
 httpie
 brona/iproute2mac/iproute2mac
 jq
+known_hosts
 lftp
 libsmi
 libvo-aacenc
@@ -34,6 +35,7 @@ shellcheck
 sift
 the_platinum_searcher
 the_silver_searcher
+thefuck
 tig
 tree
 wget
