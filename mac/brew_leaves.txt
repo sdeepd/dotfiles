@@ -38,6 +38,7 @@ the_silver_searcher
 thefuck
 tig
 tree
+vim
 wget
 whatmask
 wv
