@@ -1,4 +1,5 @@
 bitbar
+franz
 gpgtools
 keepassx
 pycharm-ce (!)

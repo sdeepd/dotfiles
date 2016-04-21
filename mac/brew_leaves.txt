@@ -25,7 +25,9 @@ lftp
 libsmi
 libvo-aacenc
 lynx
+mas
 minicom
+moreutils
 ncdu
 noti
 putty
