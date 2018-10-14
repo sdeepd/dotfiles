@@ -21,6 +21,11 @@ Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-fugitive'
 " Plugin 'tpope/vim-fugitive'
 Plugin 'kien/ctrlp.vim'
+"" Plugin Nerdtree
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'vim-syntastic/syntastic'
+
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " " Git plugin not hosted on GitHub
@@ -32,6 +37,7 @@ Plugin 'kien/ctrlp.vim'
 " Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
+Plugin 'airblade/vim-gitgutter'
 "
 " " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -61,6 +67,7 @@ set smartcase
 set showmode
 set wrap
 set ttyfast
+set cursorline
 
 filetype plugin indent on
 syntax on 
@@ -70,3 +77,15 @@ colorscheme solarized
 let g:airline_powerline_fonts = 1
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
+""autocmd vimenter * NERDTree
+map <C-n> :NERDTreeToggle<CR>
+nnoremap \ :Ag<SPACE>
+
+set number relativenumber
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
